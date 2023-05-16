@@ -17,8 +17,14 @@
 
 ### Решение задачи
 
-```python
-# TODO: you code here...
+```
+rub_total = int(input("Сколько на кармане ₽: "))
+rub_cost = int(input("Сколько стоит товар ₽: "))
+
+if rub_cost > rub_total:
+    print("Денег недостаточно")
+else:
+    print(f'''После покупки останется {rub_total - rub_cost}₽''')
 ```
 
 ---
